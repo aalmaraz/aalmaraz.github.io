@@ -1,7 +1,9 @@
 # Site settings
 title: Angie Tigger
 email: aalmarazg7@gmail.com
-description: > For something.
+description: >
+  Description, should have
+  return.
 baseurl: ""
 url: "https://aalmaraz.github.io/"
 github_username:  aalmaraz

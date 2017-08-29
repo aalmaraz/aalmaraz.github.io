@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="post">
+	<header>
+		<div class="icon-category">
+			<div class="icon {{page.icon}}"></div>
+		</div>
+		<b>{{ page.title }}</b>
+	</header>
+
+	<div class="divider" />
+	
+	<div class="content">
+		{{ content }}
+	</div>
+
+	<div class="buttons">
+  		{% if page.previous.url %}
+    		<button class="prev" onclick="document.location='{{page.previous.url}}'">
+				&laquo; {{page.previous.title}}
+			</button>
+  		{% endif %}
+  		{% if page.next.url %}
+    		<button class="next" onclick="document.location='{{page.next.url}}'">
+				{{page.next.title}} &raquo;
+			</button>
+  		{% endif %}
+	</div>
+
+</section>

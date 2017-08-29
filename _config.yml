@@ -1,0 +1,10 @@
+# Site settings
+title: Angie Tigger
+email: aalmarazg7@gmail.com
+description: > For something.
+baseurl: ""
+url: "https://aalmaraz.github.io/"
+github_username:  aalmaraz
+markdown: kramdown
+#paginate: 7
+#gems: [jekyll-paginate]
